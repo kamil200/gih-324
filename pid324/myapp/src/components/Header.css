@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height:  90px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: -1rem;
+}
+
+.header--img {
+    height: 100%;
+    margin-left: 2em;
+    margin-right: 0.5rem;
+}
+
+.header--title {
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+
+.header--sign--up {
+    font-size: 0.75rem;
+    font-weight: 500;
+    background-color:#0000ff;
+    color: aliceblue;
+    border: none;
+    margin-right: 0.5rem;
+    border-radius: 10px;
+    padding:0.4rem;
+    
+}
+.header--sign--in {
+    font-size: 0.75rem;
+    font-weight: 500;
+    background-color: white;
+    color: #0000ff;
+    border: none;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+
+}
+.header--sepretor{
+    margin: 0.5rem;
+    opacity: 50%;
+}
+.header--lang{
+    border: none;
+    font-size: 0.75rem;
+    margin-right: 0.3rem;
+    
+    
+}
